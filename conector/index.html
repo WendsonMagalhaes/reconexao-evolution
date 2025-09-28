@@ -571,7 +571,7 @@
         document.getElementById('generate-qr').addEventListener('click', async (e) => {
             e.preventDefault();
 
-            const baseUrl = 'https://lyrately-acrobatic-alayna.ngrok-free.dev/';
+            const baseUrl = 'https://evolutionapi.wendsondev.site';
             const instance = document.getElementById('instance').value;
             const apiKey = '429683C4C977415CAAFCCE10F7D57E11';
 
@@ -892,9 +892,9 @@
 
         // Função para reiniciar a instância
         async function restartInstance() {
-            const baseUrl = 'https://link-da-sua-api.com.br';
+            const baseUrl = 'https://evolutionapi.wendsondev.site';
             const instance = document.getElementById('instance').value;
-            const apiKey = 'suaApiKey';
+            const apiKey = '429683C4C977415CAAFCCE10F7D57E11';
 
             try {
                 addLog('Reiniciando instância...', 'info');
@@ -948,9 +948,9 @@
 
         // Função para fazer logout da instância
         async function logoutInstance() {
-            const baseUrl = 'https://link-da-sua-api.com.br';
+            const baseUrl = 'https://evolutionapi.wendsondev.site';
             const instance = document.getElementById('instance').value;
-            const apiKey = 'suaApiKey';
+            const apiKey = '429683C4C977415CAAFCCE10F7D57E11';
 
             try {
                 addLog('Desconectando instância...', 'info');
@@ -1024,9 +1024,9 @@
 
         // Função para atualizar informações do perfil
         async function updateProfileInfo() {
-            const baseUrl = 'https://link-da-sua-api.com.br';
+            const baseUrl = 'https://evolutionapi.wendsondev.site';
             const instance = document.getElementById('instance').value;
-            const apiKey = 'suaApiKey';
+            const apiKey = '429683C4C977415CAAFCCE10F7D57E11';
 
             try {
                 addLog('Atualizando informações do perfil...', 'info');
@@ -1151,9 +1151,9 @@
 
         // Função para atualizar o nome do perfil
         async function updateProfileName(name) {
-            const baseUrl = 'https://link-da-sua-api.com.br';
+            const baseUrl = 'https://evolutionapi.wendsondev.site';
             const instance = document.getElementById('instance').value;
-            const apiKey = 'suaApiKey';
+            const apiKey = '429683C4C977415CAAFCCE10F7D57E11';
 
             try {
                 const response = await fetch(`${baseUrl}/instance/updateProfileName`, {
@@ -1180,9 +1180,9 @@
 
         // Função para atualizar o status
         async function updateProfileStatus(status) {
-            const baseUrl = 'https://link-da-sua-api.com.br';
+            const baseUrl = 'https://evolutionapi.wendsondev.site';
             const instance = document.getElementById('instance').value;
-            const apiKey = 'suaApiKey';
+            const apiKey = '429683C4C977415CAAFCCE10F7D57E11';
 
             try {
                 const response = await fetch(`${baseUrl}/instance/updateProfileStatus`, {
@@ -1209,9 +1209,9 @@
 
         // Função para atualizar a foto do perfil
         async function updateProfilePicture(file) {
-            const baseUrl = 'https://link-da-sua-api.com.br';
+            const baseUrl = 'https://evolutionapi.wendsondev.site';
             const instance = document.getElementById('instance').value;
-            const apiKey = 'suaApiKey';
+            const apiKey = '429683C4C977415CAAFCCE10F7D57E11';
 
             try {
                 const reader = new FileReader();
@@ -1249,9 +1249,9 @@
             const name = document.getElementById('profile-name').value;
             const status = document.getElementById('profile-status').value;
             const pictureFile = document.getElementById('profile-picture').files[0];
-            const baseUrl = 'https://link-da-sua-api.com.br';
+            const baseUrl = 'https://evolutionapi.wendsondev.site';
             const instance = document.getElementById('instance').value;
-            const apiKey = 'suaApiKey';
+            const apiKey = '429683C4C977415CAAFCCE10F7D57E11';
 
             if (name) {
                 await updateProfileName(name);
