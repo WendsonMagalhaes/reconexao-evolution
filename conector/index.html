@@ -18,7 +18,7 @@
             <div
                 class="bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded-xl p-6 max-w-md mx-4 shadow-2xl">
                 <h2 class="text-xl font-semibold mb-4 flex items-center">
-                    <svg class="w-6 h-6 text-[#9b3fbe] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <svg class="w-6 h-6 text-green-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd"
                             d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
                             clip-rule="evenodd" />
@@ -31,7 +31,7 @@
                 <div class="space-y-4">
                     <div class="flex items-start">
                         <div
-                            class="flex-shrink-0 bg-[#9b3fbe] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-medium">
+                            class="flex-shrink-0 bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-medium">
                             1</div>
                         <p class="ml-3 text-sm">Clique no botão <span
                                 class="font-bold text-gray-900 dark:text-white">"Gerar QR
@@ -39,7 +39,7 @@
                     </div>
                     <div class="flex items-start">
                         <div
-                            class="flex-shrink-0 bg-[#9b3fbe] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-medium">
+                            class="flex-shrink-0 bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-medium">
                             2</div>
                         <p class="ml-3 text-sm">Abra o WhatsApp no seu celular e vá em <span
                                 class="font-bold text-gray-900 dark:text-white">Configurações > Aparelhos
@@ -47,7 +47,7 @@
                     </div>
                     <div class="flex items-start">
                         <div
-                            class="flex-shrink-0 bg-[#9b3fbe] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-medium">
+                            class="flex-shrink-0 bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-medium">
                             3</div>
                         <p class="ml-3 text-sm">Toque em <span class="font-bold text-gray-900 dark:text-white">"Parear
                                 dispositivo"</span> e <span class="font-bold text-gray-900 dark:text-white">aponte a
@@ -56,17 +56,18 @@
                     </div>
                     <div class="flex items-start">
                         <div
-                            class="flex-shrink-0 bg-[#9b3fbe] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-medium">
+                            class="flex-shrink-0 bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-medium">
                             4</div>
                         <p class="ml-3 text-sm">Aguarde alguns segundos até o status mudar para "Conectado".</p>
                     </div>
                 </div>
                 <button id="close-tutorial"
-                    class="mt-6 w-full bg-[#9b3fbe] hover:bg-[#9b3fbe]/90 active:bg-[#9b3fbe]/80 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
+                    class="mt-6 w-full bg-green-600 hover:bg-green-500 active:bg-green-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
                     Fechar Tutorial
                 </button>
             </div>
         </div>
+
         <div
             class="bg-gradient-to-br from-primary-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 min-h-screen flex items-center justify-center font-sans p-4">
             <div
@@ -74,10 +75,10 @@
                 <header class="text-center mb-8">
                     <div class="flex justify-between items-center mb-4">
                         <div class="flex-1 flex justify-center">
-                            <img src="https://iyup.com.br/wp-content/uploads/2024/10/logo-iyup-chat-novo.svg"
-                                alt="iYupChat Logo" class="h-8 w-auto dark:hidden">
-                            <img src="https://iyup.com.br/wp-content/uploads/2024/10/logo-iyup-chat-novo-dark.svg"
-                                alt="iYupChat Logo" class="h-8 w-auto hidden dark:block">
+                            <h2
+                                class="text-3xl font-extrabold tracking-wide bg-gradient-to-r from-green-500 to-emerald-700 bg-clip-text text-transparent">
+                                Evolution Reconexão
+                            </h2>
                         </div>
                         <button id="theme-toggle"
                             class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-200">
@@ -90,7 +91,7 @@
                         </button>
                     </div>
                     <p class="text-gray-600 dark:text-gray-300 text-sm">Conecte seu WhatsApp aos nossos serviços</p>
-                    <div class="mt-4 w-16 h-1 bg-primary-500 mx-auto rounded-full"></div>
+                    <div class="mt-4 w-16 h-1 bg-green-500 mx-auto rounded-full"></div>
                 </header>
 
                 <div class="space-y-6" id="connection-form">
@@ -102,9 +103,10 @@
                             class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
                             placeholder="minha-instancia-whatsapp" required="" />
                     </div>
-                    <button
-                        class="w-full bg-[#9b3fbe] text-white font-medium py-3 px-4 rounded-lg hover:bg-[#9b3fbe]/90 active:bg-[#9b3fbe]/80 transition-all duration-200 transform hover:shadow-lg flex items-center justify-center gap-2"
-                        id="generate-qr">
+                    <button class="w-full bg-green-600 text-white font-medium py-3 px-4 rounded-lg 
+           hover:bg-green-700 active:bg-green-800 
+           transition-all duration-200 transform hover:shadow-lg 
+           flex items-center justify-center gap-2" id="generate-qr">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
                                 d="M3 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm2 2V5h1v1H5zM3 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1v-3zm2 2v-1h1v1H5zM13 3a1 1 0 00-1 1v3a1 1 0 001 1h3a1 1 0 001-1V4a1 1 0 00-1-1h-3zm1 2v1h1V5h-1zM13 12a1 1 0 00-1 1v3a1 1 0 001 1h3a1 1 0 001-1v-3a1 1 0 00-1-1h-3zm1 2v1h1v-1h-1z"
@@ -112,6 +114,7 @@
                         </svg>
                         Gerar QR Code
                     </button>
+
                 </div>
 
                 <div id="qr-display" class="hidden mt-8 text-center">
@@ -404,130 +407,88 @@
                 // Para o contador atual
                 stopCountdown();
 
-                // Mostra o spinner de carregamento
-                document.getElementById('loading-spinner').classList.remove('hidden');
-                document.getElementById('qrcodeCanvas').style.display = 'none';
+                // Limpa QR antigo
+                document.getElementById('qrcode')?.replaceChildren();
+                document.getElementById('qrcodeCanvas')?.replaceChildren();
 
-                // Primeiro verifica se já está conectado
+                // Mostra o spinner
+                document.getElementById('loading-spinner')?.classList.remove('hidden');
+                document.getElementById('qr-display')?.classList.add('hidden');
+                document.getElementById('status-display')?.classList.add('hidden');
+                document.getElementById('error-display')?.classList.add('hidden');
+
+                // Verifica se já está conectado
                 const statusResponse = await fetch(`${baseUrl}/instance/connectionState/${instance}`, {
                     method: 'GET',
-                    headers: {
-                        'apikey': apiKey
-                    }
+                    headers: { 'apikey': apiKey }
                 });
 
                 if (statusResponse.ok) {
                     const statusData = await statusResponse.json();
-                    if (statusData.instance.state === 'open') {
+                    if (statusData.instance?.state === 'open') {
                         addLog('WhatsApp já está conectado, não é necessário gerar QR code', 'info');
-                        document.getElementById('loading-spinner').classList.add('hidden');
-                        document.getElementById('qrcodeCanvas').style.display = 'block';
+                        document.getElementById('loading-spinner')?.classList.add('hidden');
+                        document.getElementById('qr-display')?.classList.remove('hidden');
+                        document.getElementById('status-display')?.classList.remove('hidden');
                         return true;
                     }
                 }
 
+                // Solicita novo QR code
                 const response = await fetch(`${baseUrl}/instance/connect/${instance}`, {
                     method: 'GET',
-                    headers: {
-                        'apikey': apiKey
-                    }
+                    headers: { 'apikey': apiKey }
                 });
 
                 addLog(`Status da resposta: ${response.status}`, 'info');
 
                 if (!response.ok) {
                     if (response.status === 404) {
-                        // Esconde o container do QR code
-                        document.getElementById('qr-display').classList.add('hidden');
-                        document.getElementById('loading-spinner').classList.add('hidden');
-
-                        // Esconde a mensagem de sucesso
-                        document.getElementById('status-display').classList.add('hidden');
-
-                        // Mostra mensagem de erro específica para instância não encontrada
-                        const errorDisplay = document.getElementById('error-display');
-                        errorDisplay.classList.remove('hidden');
-                        errorDisplay.innerHTML = `
-                <div class="bg-red-50 dark:bg-red-900 border border-red-200 dark:border-red-800 rounded-lg p-6">
-                  <div class="flex flex-col items-center text-center space-y-3">
-                    <div class="flex-shrink-0">
-                      <svg class="h-8 w-8 text-red-500 dark:text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                      </svg>
-                    </div>
-                    <div class="text-center">
-                      <h3 class="text-lg font-medium text-red-800 dark:text-red-200 mb-2">
-                        Instância não encontrada
-                      </h3>
-                      <p class="text-sm text-red-700 dark:text-red-300">
-                        Verifique o nome da instância<br>e tente novamente.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              `;
-
-                        // Mostra o formulário novamente
-                        document.getElementById('connection-form').classList.remove('hidden');
-
-                        addLog('Instância não encontrada', 'error');
-                        return false;
+                        addLog('Instância não encontrada (pode já existir e estar conectada)', 'warn');
+                        // Continua, pois a API pode gerar QR code mesmo assim
+                    } else {
+                        throw new Error(`Erro na conexão: ${response.status}`);
                     }
-                    throw new Error(`Erro na conexão: ${response.status}`);
                 }
 
                 const data = await response.json();
-                if (!data.code) {
+
+                // Gera QR code base64
+                if (data.base64) {
+                    const base64Clean = data.base64.includes(',') ? data.base64.split(',')[1] : data.base64;
+                    const imgSrc = `data:image/png;base64,${base64Clean}`;
+                    document.getElementById('qrcode')?.insertAdjacentHTML('afterbegin', `<img src="${imgSrc}" alt="QR Code" style="width:180px;height:180px;">`);
+                    addLog('QR Code gerado com sucesso (base64)', 'success');
+                }
+                // Gera QR code em canvas
+                else if (data.code) {
+                    const canvas = document.getElementById('qrcodeCanvas');
+                    if (canvas) {
+                        QRCode.toCanvas(canvas, data.code, { width: 180, height: 180, margin: 0 }, function (error) {
+                            if (error) {
+                                addLog(`Erro ao gerar QR Code: ${error.message}`, 'error');
+                                console.error(error);
+                            } else {
+                                addLog('QR Code gerado com sucesso (canvas)', 'success');
+                                canvas.style.display = 'block';
+                            }
+                        });
+                    }
+                } else {
                     addLog('QR Code não disponível no momento', 'info');
-                    document.getElementById('loading-spinner').classList.add('hidden');
-                    document.getElementById('qrcodeCanvas').style.display = 'block';
-                    return false;
                 }
 
-                addLog('Resposta recebida com sucesso', 'success');
-
-                // Limpa o QR code anterior
-                document.getElementById('qrcode').innerHTML = `
-            <div id="loading-spinner">
-              <svg class="animate-spin h-12 w-12 text-[#9b3fbe]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-              </svg>
-            </div>
-            <canvas id="qrcodeCanvas" style="display: none;"></canvas>
-          `;
-
-                // Gera o novo QR code
-                const canvas = document.getElementById('qrcodeCanvas');
-                QRCode.toCanvas(canvas, data.code, {
-                    width: 180,
-                    height: 180,
-                    margin: 0
-                }, function (error) {
-                    if (error) {
-                        addLog(`Erro ao gerar QR Code: ${error.message}`, 'error');
-                        console.error(error);
-                        document.getElementById('error-display').classList.remove('hidden');
-                        document.getElementById('status-display').classList.add('hidden');
-                        document.getElementById('loading-spinner').classList.add('hidden');
-                        document.getElementById('qrcodeCanvas').style.display = 'block';
-                    } else {
-                        addLog('QR Code gerado com sucesso', 'success');
-                        // Esconde o spinner e mostra o QR code
-                        document.getElementById('loading-spinner').classList.add('hidden');
-                        document.getElementById('qrcodeCanvas').style.display = 'block';
-
-                        // Garante que o container do QR code está visível
-                        document.getElementById('qr-display').classList.remove('hidden');
-                        document.getElementById('status-display').classList.remove('hidden');
-                    }
-                });
+                // Esconde spinner e mostra containers
+                document.getElementById('loading-spinner')?.classList.add('hidden');
+                document.getElementById('qr-display')?.classList.remove('hidden');
+                document.getElementById('status-display')?.classList.remove('hidden');
 
                 return true;
+
             } catch (error) {
                 addLog(`Erro ao gerar QR Code: ${error.message}`, 'error');
-                document.getElementById('loading-spinner').classList.add('hidden');
-                document.getElementById('qrcodeCanvas').style.display = 'block';
+                document.getElementById('loading-spinner')?.classList.add('hidden');
+                document.getElementById('qrcode')?.insertAdjacentHTML('afterbegin', '<p>Erro ao carregar QR Code</p>');
                 return false;
             }
         }
